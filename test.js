@@ -1,13 +1,9 @@
-import test from 'ava';
-import unicornFun from '.';
+const unicornFun = require('.');
 
-test('main', t => {
-	t.throws(() => {
-		unicornFun(123);
-	}, {
-		instanceOf: TypeError,
-		message: 'Expected a string, got number'
-	});
-
-	t.is(unicornFun('unicorns'), 'unicorns & rainbows');
+test('main', () => {
+    expect(() => {
+        unicornFun(123);
+    }).toThrowError(new TypeError('Expected a string, got number'));
+    
+    expect(unicornFun('unicorns')).toEqual('unicorns & rainbows');
 });
