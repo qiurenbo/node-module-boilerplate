@@ -3,11 +3,11 @@
 	"version": "0.0.0",
 	"description": "My awesome module",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "https://github.com/qiurenbo/xxx",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "qiurenbo",
+		"email": "qiurenbo@outlook.com",
+		"url": "https://www.imwhite.com.cn"
 	},
 	"engines": {
 		"node": ">=8"
